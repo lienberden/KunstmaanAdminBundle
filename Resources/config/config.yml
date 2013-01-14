@@ -13,7 +13,7 @@ fos_user:
         token_ttl: 86400
         email:
             from_email: # Use this node only if you don't want the global email address for the resetting email
-                address:        admin@kunstmaan.be
+                address:        support@kunstmaan.be
                 sender_name:    admin
             template:   FOSUserBundle:Resetting:email.txt.twig
         form:
